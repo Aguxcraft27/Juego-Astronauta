@@ -1,0 +1,10 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.4",
+	"Category": "",
+	"Description": "Juego del astronauta - prototipo de sigilo",
+	"Modules": [
+		{ "Name": "Astronauta", "Type": "Runtime", "LoadingPhase": "Default", "AdditionalDependencies": [ "Engine", "AIModule" ] }
+	],
+	"Plugins": [ { "Name": "ModelingToolsEditorMode", "Enabled": true, "TargetAllowList": [ "Editor" ] } ]
+}

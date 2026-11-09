@@ -1,0 +1,36 @@
+{
+  "name": "Astronauta",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Astronauta": {
+        "$path": "src/shared"
+      }
+    },
+    "ServerScriptService": {
+      "Astronauta": {
+        "$path": "src/server"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Astronauta": {
+          "$path": "src/client"
+        }
+      },
+      "$properties": {
+        "LoadCharacterAppearance": false,
+        "CameraMode": "LockFirstPerson",
+        "CameraMaxZoomDistance": 0.5,
+        "CameraMinZoomDistance": 0.5
+      }
+    },
+    "Lighting": {
+      "$properties": {
+        "Technology": "Future",
+        "ClockTime": 0,
+        "Brightness": 0
+      }
+    }
+  }
+}

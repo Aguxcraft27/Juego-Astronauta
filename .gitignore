@@ -1,0 +1,10 @@
+# OS / Temp files
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.tmp
+*.log
+
+# Luau / Build artifacts if any
+Saved/
+.vscode/
